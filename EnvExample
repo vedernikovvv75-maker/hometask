@@ -1,9 +1,0 @@
-OPENAI_API_KEY=your_proxyapi_key_here
-OPENAI_BASE_URL=https://api.proxyapi.ru/openai/v1
-OPENAI_MODEL=gpt-4o-mini
-
-ANTHROPIC_API_KEY=your_anthropic_or_proxyapi_key_here
-ANTHROPIC_BASE_URL=https://api.proxyapi.ru/anthropic
-ANTHROPIC_MODEL=claude-sonnet-4-5-20250929
-ANTHROPIC_THINKING_BUDGET=1500
-ANTHROPIC_MAX_TOKENS=2200
