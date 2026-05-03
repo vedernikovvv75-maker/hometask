@@ -1,0 +1,22 @@
+# Copy values into your real .env file.
+# File .env is intentionally not created by the project.
+
+APP_HOST=127.0.0.1
+APP_PORT=8000
+
+# Notification mode: event_log | email | fail
+# - event_log — append to logs/events.log (default, reliable locally)
+# - email — SMTP; on error the handler returns HTTP 500 and logs with logger.exception
+# - fail — do not notify; raises so the API returns HTTP 500 and logs (testing / demos)
+NOTIFICATION_MODE=event_log
+
+# If NOTIFICATION_MODE=email, all of the variables below must be non-empty or the app falls back to event_log at startup.
+
+# Email settings (used only when NOTIFICATION_MODE=email)
+MANAGER_EMAIL=manager@example.com
+FROM_EMAIL=bot@example.com
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=bot@example.com
+SMTP_PASSWORD=replace_me
+SMTP_USE_TLS=true

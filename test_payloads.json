@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Ирина",
+    "contact": "+79990000000",
+    "source": "landing",
+    "comment": "Хочу консультацию по тарифам"
+  },
+  {
+    "name": "Алексей",
+    "contact": "alex@example.com",
+    "source": "instagram",
+    "comment": "Нужна презентация курса"
+  },
+  {
+    "name": "Мария",
+    "contact": "@maria_telegram",
+    "source": "telegram",
+    "comment": "Можно ли рассрочку?"
+  },
+  {
+    "name": "Олег",
+    "contact": "oleg@example.com",
+    "source": "website",
+    "comment": "Интересует корпоративное обучение"
+  },
+  {
+    "name": "Без контакта",
+    "source": "landing",
+    "comment": "Этот payload должен вернуть 400"
+  },
+  {
+    "name": "Пустой контакт",
+    "contact": "",
+    "source": "landing",
+    "comment": "Этот payload должен вернуть 400"
+  }
+]
